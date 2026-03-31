@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayFareCalculator", "src\RailwayFareCalculator\RailwayFareCalculator.csproj", "{7E8DDC5B-3A2A-4F7D-A3D4-1D8E6C5E80A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayFareCalculator.Core", "src\RailwayFareCalculator.Core\RailwayFareCalculator.Core.csproj", "{B3F6D3E8-93BA-4B4B-AF65-4C1B508E44B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayFareCalculator.Tests", "tests\RailwayFareCalculator.Tests\RailwayFareCalculator.Tests.csproj", "{A8BCA70B-0C62-4E4E-8E53-6B9A6D5E11F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E8DDC5B-3A2A-4F7D-A3D4-1D8E6C5E80A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8DDC5B-3A2A-4F7D-A3D4-1D8E6C5E80A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8DDC5B-3A2A-4F7D-A3D4-1D8E6C5E80A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8DDC5B-3A2A-4F7D-A3D4-1D8E6C5E80A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F6D3E8-93BA-4B4B-AF65-4C1B508E44B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F6D3E8-93BA-4B4B-AF65-4C1B508E44B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F6D3E8-93BA-4B4B-AF65-4C1B508E44B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F6D3E8-93BA-4B4B-AF65-4C1B508E44B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BCA70B-0C62-4E4E-8E53-6B9A6D5E11F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BCA70B-0C62-4E4E-8E53-6B9A6D5E11F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BCA70B-0C62-4E4E-8E53-6B9A6D5E11F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BCA70B-0C62-4E4E-8E53-6B9A6D5E11F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
